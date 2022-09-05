@@ -7,8 +7,8 @@ class Items(unittest.TestCase):
         self.driver = webdriver.Chrome('chromedriver.exe')
         self.driver.get('http://automationpractice.com/index.php')
 
-    #def test_do_nothing(self):
-    #    pass
+    def test_do_nothing(self):
+        pass
 
     def test_view_item_page(self):
         #BUSQUEDA_ARTICULO
